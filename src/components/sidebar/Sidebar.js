@@ -19,7 +19,7 @@ const Sidebar = () => {
             <TwitterIcon className="sidebar_twitterIcon" />
 
             {/* SideBarOption */}
-            <SidebarOption text="ホーム" Icon={HomeIcon} />
+            <SidebarOption text="Home" Icon={HomeIcon} />
             <SidebarOption text="話題を検索" Icon={SearchIcon} />
             <SidebarOption text="通知" Icon={NotificationsNoneIcon} />
             <SidebarOption text="メッセージ" Icon={MailOutlineIcon} />
