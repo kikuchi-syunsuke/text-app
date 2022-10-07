@@ -1,5 +1,6 @@
 import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import SidebarOption from "./SidebarOption";
 
 const Sidebar = () => {
     return (
@@ -8,6 +9,7 @@ const Sidebar = () => {
             <TwitterIcon className="sidebar_twitterIcon" />
 
             {/* SideBarOption */}
+            <SidebarOption />
 
             {/* 投稿ボタン */}
         </div>
