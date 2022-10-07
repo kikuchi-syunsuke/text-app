@@ -9,6 +9,7 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import SidebarOption from "./SidebarOption";
+import { Button } from "@mui/material";
 
 const Sidebar = () => {
     return (
@@ -27,6 +28,9 @@ const Sidebar = () => {
             <SidebarOption text="もっと見る" Icon={MoreHorizIcon} />
 
             {/* 投稿ボタン */}
+            <Button variant="outlined" className="sidebar_tweet">
+                投稿する
+            </Button>
         </div>
     );
 };
