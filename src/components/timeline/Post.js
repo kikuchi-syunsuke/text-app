@@ -7,6 +7,7 @@ import {
 } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
 import React from "react";
+import "./Post.css";
 
 const Post = () => {
     return (
@@ -17,11 +18,13 @@ const Post = () => {
             <div className="postBody">
                 <div className="postHeader">
                     <div className="postHeaderText">
-                        <h3>プログラミングテスト</h3>
-                        <span className="postHeaderSpecial">
-                            <VerifiedUser className="postBadge" />
-                            @kmch_synsk
-                        </span>
+                        <h3>
+                            プログラミングテスト
+                            <span className="postHeaderSpecial">
+                                <VerifiedUser className="postBadge" />
+                                @kmch_synsk
+                            </span>
+                        </h3>
                     </div>
                     <div className="postHeaderDescription">
                         <p>reactなう</p>

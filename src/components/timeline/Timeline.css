@@ -1,6 +1,7 @@
 .timeline {
     flex: 0.45;
     border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
 }
 .timelineHeader {
     position: sticky;
