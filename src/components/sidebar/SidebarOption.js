@@ -1,4 +1,5 @@
 import React from "react";
+import "./SideberOption.css";
 
 const SidebarOption = ({ text, Icon }) => {
     return (
