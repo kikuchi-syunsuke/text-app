@@ -23,7 +23,7 @@ const Sidebar = () => {
             <SidebarOption text="話題を検索" Icon={SearchIcon} />
             <SidebarOption text="通知" Icon={NotificationsNoneIcon} />
             <SidebarOption text="Message" Icon={MailOutlineIcon} />
-            <SidebarOption text="ブックマーク" Icon={BookmarkBorderIcon} />
+            <SidebarOption text="bookmark" Icon={BookmarkBorderIcon} />
             <SidebarOption text="リスト" Icon={ListAltIcon} />
             <SidebarOption text="プロフィール" Icon={PermIdentityIcon} />
             <SidebarOption text="もっと見る" Icon={MoreHorizIcon} />
