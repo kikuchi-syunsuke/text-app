@@ -1,5 +1,6 @@
 import Search from "@mui/icons-material/Search";
 import React from "react";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 
 const Widgets = () => {
     return (
@@ -12,6 +13,7 @@ const Widgets = () => {
                 <h2>今どうしてる？</h2>
 
                 {/* ライブラリを追加 */}
+                <TwitterTweetEmbed tweetId="1475764828208009220" />
             </div>
         </div>
     );
