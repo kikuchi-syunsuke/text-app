@@ -3,6 +3,11 @@
     border-right: 1px solid var(--twitter-background);
     overflow-y: scroll;
 }
+
+.timeline::-webkit-scrollbar {
+    display: none;
+}
+
 .timelineHeader {
     position: sticky;
     top: 0;
