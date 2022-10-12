@@ -1,6 +1,6 @@
 import Search from "@mui/icons-material/Search";
 import React from "react";
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterShareButton, TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 
 const Widgets = () => {
     return (
@@ -14,6 +14,17 @@ const Widgets = () => {
 
                 {/* ライブラリを追加 */}
                 <TwitterTweetEmbed tweetId="1475764828208009220" />
+
+                <TwitterTimelineEmbed
+                    sourceType="profile"
+                    screenName="zrts_kkch"
+                    options={{ height: 400 }}
+                />
+
+                <TwitterShareButton
+                    url={"https://twitter.com/zrts_kkch"}
+                    options={{ text: "#Git勉強中", via: "zrts_kkch"}}
+                />
             </div>
         </div>
     );
