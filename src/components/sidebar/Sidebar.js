@@ -29,7 +29,7 @@ const Sidebar = () => {
             <SidebarOption text="もっと見る" Icon={MoreHorizIcon} />
 
             {/* 投稿ボタン */}
-            <Button variant="outlined" className="sidebar_tweet">
+            <Button variant="outlined" className="sidebar_tweet" fullWidth>
                 投稿する
             </Button>
         </div>
